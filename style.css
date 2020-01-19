@@ -1,0 +1,25 @@
+.incredibly-useful-container {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  background: #e2dcdc;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.del-btn {
+  border: none;
+  background: #ff5c5c;
+  border-radius: 4px;
+  color: white
+}
+
+.add-btn {
+  transform: translateY(1px);
+}

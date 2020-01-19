@@ -7,11 +7,13 @@ const addInp = document.querySelector('.add-input')
 todoList.addEventListener('click', delToDo)
 todoList.addEventListener('click', doneToDo)
 addBtn.addEventListener('click', addToDo)
+addInp.addEventListener('keydown', addToDo)
 
-function addToDo() {
+function addToDo(event) {
+  if (event.key && event.key != 'Enter') return
   if (addInp.value != '') {
     todoName.innerText = addInp.value
-    todoList.append(template.cloneNode(1))
+    todoList.prepend(template.cloneNode(1))
     addInp.value = ''
   }
 }
