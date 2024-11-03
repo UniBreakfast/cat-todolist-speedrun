@@ -1,4 +1,4 @@
-# cat-todolist-speedrun
+# [cat-todolist-speedrun](https://github.com/UniBreakfast/cat-todolist-speedrun)
 
 Wrote a simple task as fast as I could.
 
